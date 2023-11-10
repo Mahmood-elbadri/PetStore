@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class DogsPage extends BasePage {
-    WebDriver driver;
     @FindBy(xpath = "//a[normalize-space()='K9-DL-01']")
     private WebElement dalmationDog;
 
