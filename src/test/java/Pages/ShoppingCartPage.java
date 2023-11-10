@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class ShoppingCartPage extends BasePage{
-    WebDriver driver;
     @FindBy(xpath = "//input[@name='EST-9']")
     private WebElement quantityBox;
     @FindBy(xpath = "//button[normalize-space()='Update Cart']")
