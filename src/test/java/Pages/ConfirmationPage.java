@@ -8,7 +8,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class ConfirmationPage extends BasePage {
-    WebDriver driver;
     Actions actions;
     @FindBy(xpath = "//*[@id=\"CenterForm\"]/form/div/button[1]")
     private WebElement confirmBtn;
