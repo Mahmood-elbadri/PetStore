@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
-    WebDriver driver;
 
     @FindBy(xpath = "//*[text()='Sign In']")
     private WebElement signInBtn;
